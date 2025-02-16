@@ -50,7 +50,7 @@ The script `generate_yaml.sh` is provided to generate a custom version of the Cl
 - `SERVICE_NAME`: name of the Cloud Run service (default: chroma)
 - `SERVICE_ACCOUNT`: GCP service account to run the service (usually the default Compute Engine SA, get its name from the Google Cloud project IAM page)
 - `SERVICE_REGION`: name of the region the service will be deployed to (example: europe-west1)
-- `API_TOKEN`: an alphanumeric sequence to be generated as wanted. Make sure to replace the example to avoid unwanted access.
+- `API_TOKEN`: an alphanumeric sequence to be generated as wanted. Make sure to replace the example to avoid unwanted access. The `generate_token.sh` is provided to handily generate API token.
 - `BUCKET_NAME`: name of the bucket created in Step 1
 
 
