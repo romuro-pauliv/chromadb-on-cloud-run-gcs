@@ -53,6 +53,14 @@ The script `generate_yaml.sh` is provided to generate a custom version of the Cl
 - `API_TOKEN`: an alphanumeric sequence to be generated as wanted. Make sure to replace the example to avoid unwanted access. The `generate_token.sh` is provided to handily generate API token.
 - `BUCKET_NAME`: name of the bucket created in Step 1
 
+We advise to copy this script to `test_generate_yaml.sh` instead editing the original script. This way the original file, `generate_yaml.sh`, is not modified.
+
+```bash
+cp generate_yaml.sh test_generate_yaml.sh
+```
+
+Remark: files starting with `test_` are git ignored.
+
 
 ## Step 3: Deploy the Cloud Run Service
 
